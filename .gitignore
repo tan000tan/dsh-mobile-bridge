@@ -1,0 +1,19 @@
+# 运行时状态与凭据：绝不入库
+桥接配置.json
+devices.json
+设备令牌_一次性.txt
+审计日志/
+*.log
+
+# 构建产物
+*.apk
+*.aab
+*.jks
+*.keystore
+node_modules/
+
+# 编辑器/系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

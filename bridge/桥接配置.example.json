@@ -1,0 +1,12 @@
+{
+  "listenHost": "127.0.0.1",
+  "listenPort": 3090,
+  "dshHost": "127.0.0.1",
+  "dshPort": 3080,
+  "tls": null,
+  "audit": {
+    "level": "info",
+    "retentionDays": 30
+  },
+  "_说明": "示例配置，不含任何真实令牌。首次运行若缺少 桥接配置.json，bridge.js 会自动生成并注册首台设备（明文令牌只打印一次）；设备台账 devices.json 只存 tokenHash。listenHost 改为局域网 IP 才能让手机跨机访问；tls 填 {\"pfxPath\": \"路径\"} 后仅以 HTTPS 监听。"
+}
